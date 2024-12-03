@@ -1,0 +1,66 @@
+<ul class="portfolio-filtry">
+                    <li><button class="button" data-filter="*">All</button></li>
+                    <li><button class="button" data-filter=".media">Media</button></li>
+                    <li><button class="button" data-filter=".mockup">Mockups</button></li>
+                    <li><button class="button" data-filter=".soundcloud">SoundCloud</button></li>
+                    <li><button class="button" data-filter=".vimeo">Vimeo Videos</button></li>
+                    <li><button class="button" data-filter=".youtube">Youtube Videos</button></li>
+                </ul>
+                <div class="portfolio-items">
+                    <div class="portfolio-item soundcloud" data-category="soundcloud">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio0.jpg" alt="">
+                            <a href="#" class="category">SoundCloud</a>
+                            <a href="#" class="description">SoundCloud Audio</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item media" data-category="media">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio1.jpg" alt="">
+                            <a href="#" class="category">Media</a>
+                            <a href="#" class="description">Media Project 1</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item vimeo" data-category="vimeo">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio2.jpg" alt="">
+                            <a href="#" class="category">Vimeo Videos</a>
+                            <a href="#" class="description">Vimeo Video 1</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item media" data-category="media">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio3.jpg" alt="">
+                            <a href="#" class="category">Media</a>
+                            <a href="#" class="description">Media Project 2</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item mockup" data-category="mockup">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio4.jpg" alt="">
+                            <a href="#" class="category">Mockups</a>
+                            <a href="#" class="description">Mockup Design</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item youtube" data-category="youtube">
+                        <div class="portfolio-picture">
+                            <img src="assets/img/portfolio5.jpg" alt="">
+                            <a href="#" class="category">Youtube Video</a>
+                            <a href="#" class="description">Youtube Video 1</a>
+                        </div>
+                    </div>
