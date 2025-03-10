@@ -908,6 +908,7 @@ summary .summary-data p:last-of-type {
     flex-direction: column;
     border: 2px solid var(--contentIconsBorderColor);
     align-items: center;
+    justify-content: center;
     padding: 30px 0 30px 0;
     margin: 0 15px 50px 0;
     background-color: var(--contentIconsBgColor);
@@ -929,6 +930,14 @@ summary .summary-data p:last-of-type {
 
 
 }
+
+@media (max-width: 768px) {
+    .contact .icons .item {
+        width: 50%;
+
+    }
+}
+
 
 .contact .forms .forms-description {
     margin: 0 0 20px 0;
@@ -982,8 +991,10 @@ summary .summary-data p:last-of-type {
     color: var(--varFormsTextColor);
 }
 
-.contact .forms .form .form-left-column .row .submit-button {
+.contact .forms .form .row .submit-button {
     display: block;
+    align-items: center;
+    justify-content: center;
     color: var(--submitButtonTextColor);
     background-color: var(--submitButtonBgColor);
     border: 2px solid var(--mainColor);
@@ -993,7 +1004,31 @@ summary .summary-data p:last-of-type {
     transition: 300ms;
 }
 
-.contact .forms .form .form-left-column .row .submit-button:hover {
+.contact .forms .form .row .submit-button:hover {
     color: var(--submitButtonTextColorHover);
     background-color: var(--submitButtonBgColorHover);
+}
+
+@media (max-width: 768px) {
+    .contact .icons .item {
+        width: 50%;
+    }
+
+    .contact .forms .form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .contact .forms .form .form-right-column {
+        margin: 5px 0 0 0;
+        width: 75%;
+    }
+
+    .contact .forms .form .form-left-column {
+        width: 75%;
+    }
+
 }
